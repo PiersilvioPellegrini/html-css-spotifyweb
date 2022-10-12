@@ -4,11 +4,6 @@
         width: 250px;
     }
 
-    /* 
-    Solo se abbiamo usato la width in calc per il main-container
-    .main-container {
-      width: calc(100vw - 250px);
-    } */
 
     .sidebar .middle-section .playlist-container {
         display: block;
@@ -40,7 +35,20 @@
 }
 
 /* MD - medium */
-@media screen and (min-width: 768px) {}
+@media screen and (min-width: 768px) {
 
-/* LG - large */
-@media screen and (min-width: 992px) {}
+    .col-md-1-4 {
+        flex-basis: 25%;
+
+    }
+}
+
+    /* LG - large */
+    @media screen and (min-width: 992px) {
+       
+        .col-lg-1-6 {
+            flex-basis: calc(100% / 6);
+    
+        }
+
+    }
