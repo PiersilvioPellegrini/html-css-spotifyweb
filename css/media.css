@@ -1,5 +1,9 @@
 /* SM - small */
 @media screen and (min-width: 568px) {
+    html {
+        font-size: 14px;
+    }
+
     .sidebar {
         width: 250px;
     }
@@ -36,6 +40,9 @@
 
 /* MD - medium */
 @media screen and (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
 
     .col-md-1-4 {
         flex-basis: 25%;
@@ -43,12 +50,15 @@
     }
 }
 
-    /* LG - large */
-    @media screen and (min-width: 992px) {
-       
-        .col-lg-1-6 {
-            flex-basis: calc(100% / 6);
-    
-        }
+/* LG - large */
+@media screen and (min-width: 992px) {
+    html {
+        font-size: 18px;
+    }
+
+    .col-lg-1-6 {
+        flex-basis: calc(100% / 6);
 
     }
+
+}

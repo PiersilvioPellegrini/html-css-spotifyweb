@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+    font-size: 12px;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     height: 100vh;
@@ -15,27 +19,48 @@ body>*,
 .top-container>*,
 .sidebar>*,
 .sidebar .sidebar-list a {
-    border: 1px dashed red;
+    border: 1px dashed orange;
+    background-color: black;
+    color: white;
 }
 
 .top-container {
     /* Non serve sapere l'altezza della navbar perchè si adatta automaticamente */
     flex-grow: 1;
-
-    /* Soluzione con un calc. Devo sapere l'altezza della bottom-navbar */
-    /* height: calc(100vh - 100px); */
-
+    overflow: hidden;
     display: flex;
 }
 
-.overflow{
+.overflow {
     overflow: auto;
 }
 
 .bottom-navbar {
     flex-shrink: 0;
     height: 100px;
+    display: flex;
+    justify-content: space-between;
+
 }
+
+.album {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+
+
+}
+
+.album .album-icon {
+    display: inline-block;
+}
+
+.img-album img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
 
 .sidebar {
     width: 60px;
@@ -73,16 +98,21 @@ body>*,
     display: flex;
     padding: 1rem;
     justify-content: center;
+    text-decoration: none;
 }
 
 .sidebar .sidebar-list .list-item-text {
     display: none;
+
 }
+
+
 
 .main-container {
     /* Non serve sapere la larghezza della sidebar perchè si adatta automaticamente */
-    flex-grow: 1;
-
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
 
 
 }
@@ -90,7 +120,7 @@ body>*,
 .upgrade-container {
     flex-shrink: 0;
     height: 50px;
-    
+
 
 
 
@@ -98,6 +128,9 @@ body>*,
 
 .main-container .main-content {
     flex-grow: 1;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
 
 
 
@@ -106,40 +139,82 @@ body>*,
 .menu-container {
     padding: 0 30px;
     border: 1px dashed red;
-    
+
 
 }
 
 .menu-container ul {
     list-style: none;
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     column-gap: 20px;
     row-gap: 20px;
-    
+
 }
 
-.cards{
+.cards {
     display: flex;
     flex-wrap: wrap;
-    
+
 }
+
 .cards-title {
     color: red;
 }
 
-.col{
+.col {
     padding: 10px 10px;
 }
 
-.colxs-1-2{
+.colxs-1-2 {
     flex-basis: 50%;
 }
 
-.card-img img{
+.card-img img {
     width: 100%;
     height: 100%;
     display: block;
+    margin-bottom: 10px;
 }
 
 
+.pad-10 {
+    padding: 10px 0;
+}
+
+.pad-20 {
+    padding: 20px 0;
+}
+
+.pad-30 {
+    padding: 30px 0;
+}
+
+.margin-10 {
+    margin: 10px 0;
+}
+
+.margin-20 {
+    margin: 20px 0;
+}
+
+.margin-30 {
+    margin: 30px 0;
+}
+
+.small-text {
+    font-size: 0.8rem;
+}
+
+.medium-text {
+    font-size: 1rem;
+}
+
+.large-text {
+    font-size: 1.2rem;
+}
+
+.xlarge-text {
+    font-size: 1.5rem;
+}
