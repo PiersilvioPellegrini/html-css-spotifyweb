@@ -126,6 +126,16 @@ ul {
 
 }
 
+.sidebar .sidebar-list .logo-small {
+    width: 30px;
+    height: 40px;
+
+    margin-left: 15px;
+
+    margin-top: 10px;
+}
+
+
 
 
 .crea-playlist .square {
@@ -187,8 +197,11 @@ ul {
     display: flex;
     flex-direction: column;
 
-
 }
+
+
+
+
 
 .upgrade-container {
     flex-shrink: 0;
