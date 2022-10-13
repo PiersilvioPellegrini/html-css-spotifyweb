@@ -8,6 +8,11 @@
         width: 250px;
     }
 
+    .sidebar .top-section {
+        flex-shrink: 0;
+        font-size: 1rem;
+    }
+
 
     .sidebar .middle-section .playlist-container {
         display: block;
@@ -18,7 +23,7 @@
     }
 
     .sidebar .sidebar-list .main-logo {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .sidebar .sidebar-list .logo-small {
@@ -26,7 +31,8 @@
     }
 
     .sidebar .sidebar-list .logo-large {
-        display: none;
+        display: block;
+
     }
 
     .sidebar .sidebar-list .list-item-icon {
@@ -35,6 +41,22 @@
 
     .sidebar .sidebar-list .list-item-text {
         display: block;
+    }
+
+    .small-text {
+        font-size: 0.8rem;
+    }
+
+    .medium-text {
+        font-size: 1rem;
+    }
+
+    .large-text {
+        font-size: 1.2rem;
+    }
+
+    .xlarge-text {
+        font-size: 1.5rem;
     }
 }
 
@@ -48,6 +70,22 @@
         flex-basis: 25%;
 
     }
+
+    .small-text {
+        font-size: 0.8rem;
+    }
+
+    .medium-text {
+        font-size: 1rem;
+    }
+
+    .large-text {
+        font-size: 1.2rem;
+    }
+
+    .xlarge-text {
+        font-size: 1.5rem;
+    }
 }
 
 /* LG - large */
@@ -59,6 +97,22 @@
     .col-lg-1-6 {
         flex-basis: calc(100% / 6);
 
+    }
+
+    .small-text {
+        font-size: 0.8rem;
+    }
+
+    .medium-text {
+        font-size: 1rem;
+    }
+
+    .large-text {
+        font-size: 1.2rem;
+    }
+
+    .xlarge-text {
+        font-size: 1.5rem;
     }
 
 }
