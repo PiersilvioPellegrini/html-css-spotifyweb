@@ -11,6 +11,7 @@
     .sidebar .top-section {
         flex-shrink: 0;
         font-size: 1rem;
+        
     }
 
 
@@ -25,6 +26,7 @@
 
     .sidebar .sidebar-list .main-logo {
         font-size: 1.5rem;
+        
     }
 
     .sidebar .sidebar-list .logo-small {
@@ -34,7 +36,9 @@
     .sidebar .sidebar-list .logo-large {
         display: block;
         width: 140px;
-        margin: 10px;
+        margin: 10px 10px;
+        padding-bottom: 20px;
+        padding-top: 10px;
 
 
     }
