@@ -4,12 +4,12 @@
     box-sizing: border-box;
 }
 
-:root{
+:root {
     --blue: #141922;
     --black: #000000;
     --white: #FFFFFF;
     --grey: #A3A3A3;
-    
+
 }
 
 html {
@@ -30,8 +30,9 @@ body {
 .sidebar .sidebar-list a {
 
     color: var(--grey);
-    
+
 }
+
 .top-container {
     /* Non serve sapere l'altezza della navbar perchè si adatta automaticamente */
     flex-grow: 1;
@@ -66,21 +67,22 @@ ul {
     list-style: none;
 }
 
-.card-text{
-    display:flex;
+.card-text {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     row-gap: 10px;
 }
-.card-text h3{
-    color:var(--white);
+
+.card-text h3 {
+    color: var(--white);
 
     margin-top: 10px;
 }
 
-.card-text p{
-    color:var(--grey);
+.card-text p {
+    color: var(--grey);
 }
 
 .album .album-icon {
@@ -116,6 +118,11 @@ ul {
 
 .playlist-container .crea-playlist {
     display: flex;
+
+}
+
+.playlist-container h4 {
+    color: var(--white);
 
 }
 
@@ -158,11 +165,20 @@ ul {
     text-decoration: none;
 }
 
+.sidebar .sidebar-list a:hover {
+    color: var(--white);
+    border-left: yellowgreen 2px solid;
+}
+
+
 .sidebar .sidebar-list .list-item-text {
     display: none;
 
 }
 
+.middle-section .playlist-container ul li :hover {
+    color: var(--white);
+}
 
 
 .main-container {
@@ -196,6 +212,11 @@ ul {
     align-items: center;
 }
 
+.upgrade-container button:hover {
+    background-color: var(--grey);
+    color: var(--black);
+}
+
 .main-container .main-content {
     flex-grow: 1;
     overflow: hidden;
@@ -209,10 +230,13 @@ ul {
 .menu-container {
     padding: 0 30px;
     background-color: var(--blue);
-    
 
+}
 
+.menu-container ul li:hover {
 
+    font-weight: bold;
+    border-bottom: yellowgreen 2px solid;
 }
 
 .menu-container ul {
@@ -223,6 +247,7 @@ ul {
     column-gap: 25px;
     row-gap: 20px;
 
+    color: var(--white);
 }
 
 .cards {
@@ -234,7 +259,7 @@ ul {
 .cards-title {
     color: var(--white);
     margin-left: 10px;
-    
+
 }
 
 .col {
@@ -293,7 +318,7 @@ ul {
     font-size: 1.5rem;
 }
 
-.bold{
+.bold {
     font-weight: bold;
 }
 
@@ -304,3 +329,6 @@ ul {
 
 }
 
+.white {
+    color: var(--white);
+}
