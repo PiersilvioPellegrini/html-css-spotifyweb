@@ -144,11 +144,23 @@ ul {
 
 .upgrade-container {
     flex-shrink: 0;
-    height: 50px;
+    height: 100px;
+    display: flex;
+    justify-content: end;
+    padding: 20px 0;
 
+}
 
-
-
+.upgrade-container button {
+    color: white;
+    background-color: transparent;
+    border-radius: 15px;
+    border: 1px solid white;
+    padding: 15px 35px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .main-container .main-content {
