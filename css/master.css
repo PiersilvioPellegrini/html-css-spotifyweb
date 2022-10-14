@@ -99,7 +99,8 @@ ul {
 }
 
 .bottom-navbar .album {
-    flex-shrink: 0;
+    
+    
 }
 
 .album .album-icon {
@@ -118,17 +119,21 @@ ul {
 
 .bottom-navbar .player {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    flex-grow: 1;
     row-gap: 10px;
     align-items: center;
+
 
 }
 
 .player .player-control {
     display: flex;
+    flex-direction: row;
     column-gap: 10px;
     align-items: center;
     color: var(--white);
+
 
 }
 
@@ -140,6 +145,31 @@ ul {
     flex-shrink: 0;
     margin-right: 10px;
 }
+
+.player-progress {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+    flex-grow: 1;
+    color: var(--white);
+
+}
+
+.progress-container  .progress-bg .progress-overlay {
+    height: 10px;
+    border-radius: 5px;
+    background-color: var(--grey);
+    width: 20%;
+}
+
+.progress-bg {
+    height: 10px;
+    border-radius: 5px;
+    background-color: var(--white);
+}
+
+
 
 
 
@@ -194,6 +224,7 @@ ul {
     align-items: center;
     margin-right: 10px;
     color: var(--black);
+    border-radius: 10px;
 
 
 }
@@ -394,4 +425,11 @@ ul {
 
 .grey {
     color: var(--grey);
+}
+
+.volume-bg{
+    height: 10px;
+    border-radius: 5px;
+    background-color: var(--grey);
+    width: 20%;
 }
