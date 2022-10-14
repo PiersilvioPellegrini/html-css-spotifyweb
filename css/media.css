@@ -45,13 +45,13 @@
 
 
     .player .player-control {
-        
+
         column-gap: 20px;
 
     }
 
     .progress-bg {
-        
+
         width: 6rem;
     }
 
@@ -107,14 +107,16 @@
     .xlarge-text {
         font-size: 1.5rem;
     }
+
     .player .player-control {
-        
+
         column-gap: 40px;
-        
-        
+
+
     }
+
     .progress-bg {
-    
+
         width: 10rem;
     }
 }
@@ -145,14 +147,15 @@
     .xlarge-text {
         font-size: 1.5rem;
     }
+
     .player .player-control {
-        
+
         column-gap: 50px;
 
     }
 
     .progress-bg {
-        
+
         width: 20rem;
     }
 }

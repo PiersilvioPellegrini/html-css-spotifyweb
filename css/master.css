@@ -99,7 +99,7 @@ ul {
 }
 
 .bottom-navbar .album {
-    margin-left:10px;
+    margin-left: 10px;
 }
 
 .album .album-icon {
@@ -120,7 +120,7 @@ ul {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
-    
+
     align-items: center;
 
 
@@ -170,7 +170,7 @@ ul {
     width: 4rem;
 }
 
-.volume-container .progress-bg{
+.volume-container .progress-bg {
     width: 5rem;
 }
 
@@ -373,22 +373,22 @@ ul {
     margin-bottom: 10px;
 }
 
-.card-img img:hover{
+.card-img img:hover {
     filter: blur(2px);
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.iconplay:hover{
+.iconplay:hover {
     scale: 1.5;
 }
 
-.heart:hover{
+.heart:hover {
     color: red;
 }
 
-.folder:hover{
+.folder:hover {
     color: yellowgreen;
 }
 
