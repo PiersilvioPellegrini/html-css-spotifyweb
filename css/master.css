@@ -373,12 +373,37 @@ ul {
     margin-bottom: 10px;
 }
 
-.card-img img:hover {
-    filter: blur(2px);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.card-img {
+    position: relative;
 }
+
+.card:hover img {
+    filter: blur(2px);
+    
+}
+
+
+.card-img .overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--white);
+    
+}
+
+.overlay i{
+    font-size: 3rem;
+    
+}
+
+
+
+
+
+
+
+
 
 .iconplay:hover {
     scale: 1.5;
