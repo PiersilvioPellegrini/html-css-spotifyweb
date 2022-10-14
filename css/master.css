@@ -99,8 +99,7 @@ ul {
 }
 
 .bottom-navbar .album {
-    
-    
+    margin-left:10px;
 }
 
 .album .album-icon {
@@ -121,7 +120,7 @@ ul {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
-    row-gap: 10px;
+    
     align-items: center;
 
 
@@ -139,7 +138,7 @@ ul {
 
 .volume {
     display: flex;
-    column-gap: 15px;
+    column-gap: 10px;
     align-items: center;
     color: var(--white);
     flex-shrink: 0;
@@ -149,24 +148,30 @@ ul {
 .player-progress {
     display: flex;
     flex-direction: row;
-    
-   
-    flex-grow: 1;
+    column-gap: 10px;
+    align-items: center;
     color: var(--white);
 
 }
 
-.progress-container  .progress-bg .progress-overlay {
-    height: 10px;
+.progress-container .progress-bg .progress-overlay {
+    height: 5px;
     border-radius: 5px;
     background-color: var(--white);
-    width: 20%;
+    width: 30%;
+    justify-content: center;
+    text-align: center;
 }
 
 .progress-bg {
-    height: 10px;
+    height: 5px;
     border-radius: 5px;
     background-color: var(--grey);
+    width: 4rem;
+}
+
+.volume-container .progress-bg{
+    width: 5rem;
 }
 
 
@@ -368,6 +373,25 @@ ul {
     margin-bottom: 10px;
 }
 
+.card-img img:hover{
+    filter: blur(2px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.iconplay:hover{
+    scale: 1.5;
+}
+
+.heart:hover{
+    color: red;
+}
+
+.folder:hover{
+    color: yellowgreen;
+}
+
 
 .pad-10 {
     padding: 10px 0;
@@ -429,5 +453,4 @@ ul {
 
 .circular-square {
     border-radius: 50%;
-    }
-
+}

@@ -11,7 +11,7 @@
     .sidebar .top-section {
         flex-shrink: 0;
         font-size: 1rem;
-        
+
     }
 
 
@@ -26,7 +26,7 @@
 
     .sidebar .sidebar-list .main-logo {
         font-size: 1.5rem;
-        
+
     }
 
     .sidebar .sidebar-list .logo-small {
@@ -42,6 +42,19 @@
 
 
     }
+
+
+    .player .player-control {
+        
+        column-gap: 20px;
+
+    }
+
+    .progress-bg {
+        
+        width: 6rem;
+    }
+
 
     .sidebar .sidebar-list .list-item-icon {
         margin-right: 1rem;
@@ -94,6 +107,16 @@
     .xlarge-text {
         font-size: 1.5rem;
     }
+    .player .player-control {
+        
+        column-gap: 40px;
+        
+        
+    }
+    .progress-bg {
+    
+        width: 10rem;
+    }
 }
 
 /* LG - large */
@@ -122,5 +145,14 @@
     .xlarge-text {
         font-size: 1.5rem;
     }
+    .player .player-control {
+        
+        column-gap: 50px;
 
+    }
+
+    .progress-bg {
+        
+        width: 20rem;
+    }
 }
