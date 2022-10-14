@@ -149,7 +149,7 @@ ul {
 .player-progress {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    
    
     flex-grow: 1;
     color: var(--white);
@@ -159,14 +159,14 @@ ul {
 .progress-container  .progress-bg .progress-overlay {
     height: 10px;
     border-radius: 5px;
-    background-color: var(--grey);
+    background-color: var(--white);
     width: 20%;
 }
 
 .progress-bg {
     height: 10px;
     border-radius: 5px;
-    background-color: var(--white);
+    background-color: var(--grey);
 }
 
 
@@ -427,9 +427,3 @@ ul {
     color: var(--grey);
 }
 
-.volume-bg{
-    height: 10px;
-    border-radius: 5px;
-    background-color: var(--grey);
-    width: 20%;
-}
